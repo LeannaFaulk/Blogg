@@ -1,0 +1,207 @@
+/* ------------------------------------------------------------ */
+/* imports and utilities */
+
+/* 3rd-party CSS files */
+@import 'vendor/h5bp-head.css';
+@import 'vendor/normalize.css';
+@import 'vendor/h5bp-tail.css';
+
+/* use a more intuitive box sizing model (http://is.gd/wNVjAo) */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* Scale down images and embedded videos so they don't overflow their parents */
+img, object { max-width: 100%; }
+
+/*	Development/layout aid. Remove the comments
+	on this rule in order to draw boxes around DIVs
+	and other elements used for layout. */
+/* 
+div, main, article, section, aside, hgroup, header, footer, address, nav {
+	border: 1px solid rgba(255,0,0,0.15) !important;
+	background: rgba(255,0,0,0.05) !important;		
+}
+*/
+
+
+/* ------------------------------------------------------------ */
+/* start project-specifc styles below this line */
+
+body {
+	font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5em;
+	color: #222;
+}
+
+/*	Generally, you will only want one container element in
+	the document, wrapping around the main content area. 
+	If you have more than one container, you are probably doing
+	something wrong. 	
+*/
+.container {
+	margin-right: 5%;
+	margin-bottom: 10%;
+	margin-left: 5%;
+	max-width: 100%;
+	padding: 2em;
+	border: 5px solid #B0B4DC;
+	border-style: solid solid solid solid;
+	background-color: #CAE1F0; 
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	position: fixed;
+}
+
+body{
+	background-image: url("http://cdn.playbuzz.com/cdn/68da617c-24c2-4f4b-81cd-eb4248ee2df7/c4dd89c6-aad2-45b4-96ec-d1888f5b5e1b_560_420.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #B9DBD2;
+    border: 5px solid #B0B4DC;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    padding-left: 7%;
+}
+
+li {
+    float: left;
+    color: #000;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    float: left;
+    padding-left: 1em;
+    padding-right: 2em;
+}
+
+li a.active {
+    background-color: #CAF0E5;
+    color: white;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #F3CFEB;
+    color: white;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FFFBCC;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.dropdown-content a:hover {background-color: #BDBA42}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+	text-align: center;
+	font-size: 50px;
+	grid-column: 2 / 5;
+	background-color: #CAE1F0;
+	padding: 0.5em;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 0;
+	border: 5px solid #B0B4DC;
+	border-style: solid solid none solid;
+
+}
+
+h3{
+	font-family: 'Josefin Slab', serif;
+	text-align: center;
+	font-size: 25px;
+	grid-column: 2 / 5 ;
+	line-height: 0px;
+	margin-bottom: 0px;
+	color: white;
+	background-color: #CAE1F0;
+	height: 100%;
+	padding: 1em;
+	margin-top: 0;
+	margin-left: 5%;
+	margin-right: 5%;
+	border: 5px solid #B0B4DC;
+	border-style: none solid none solid;
+
+}
+
+.biography{
+	text-align: center;
+	grid-column: 1 / 7;
+}
+
+.socials {
+	text-align: center;
+	grid-column: 3 / 5;
+	border: 5px dotted #3D3D4A;
+	padding: 0;
+	height: 95%;
+	line-height: 0px;
+	background-color: #F3CFEB;
+}
+
+.socials h2 {
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+
+.socials h4 {
+	font-family: 'Josefin Slab', serif;
+	color: white;
+	font-size: 20px;
+	line-height: 10px;
+}
+
+h2{
+	font-size: 25px;
+	font-family: 'Oswald', sans-serif;
+	height: 0;
+	margin-bottom: 1em;
+}
+
+p{
+	margin-top: 2em;
+	font-size: 20px;
+	font-family: 'Josefin Slab', serif;
+
+}
+

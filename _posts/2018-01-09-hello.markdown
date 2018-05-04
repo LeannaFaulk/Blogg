@@ -1,0 +1,24 @@
+---
+title: "Hello world"
+description: "This text shows up in search engine previews"
+---
+
+This is a post. Rename the file and replace it with a real post.
+
+I'm a paragraph.
+
+This is another graf.
+
+Hello paragraph!
+
+
+### Ingredients
+
+- Hydrocholoric acid, 2000mL
+- Two hazelnuts, crushed
+- Extract of squirrel musk
+- Flour to taste
+
+### Method
+1. Burn the hazelnuts
+2. Order takeout.
